@@ -1,17 +1,83 @@
-# React + Vite
+🌦️ Weather Now
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A beautiful, responsive weather web app built with Vite + React + Tailwind CSS, powered by the Open-Meteo API.
+It shows real-time weather data with dynamic backgrounds, adaptive color themes, and animated weather icons.
 
-Currently, two official plugins are available:
+🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 (Once you deploy to Vercel / Netlify / CodeSandbox, paste the link here)
+Example: Live App
 
-## React Compiler
+🧰 Tech Stack
+Category	Technology
+Framework	React (Vite)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Styling	Tailwind CSS
 
-## Expanding the ESLint configuration
+Icons	React-Icons (Weather Icons)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# weather-now
+API	Open-Meteo Weather API
+
+Hosting	Vercel
+ or Netlify
+✨ Features
+
+✅ City search with live weather
+✅ Dynamic backgrounds based on current condition
+✅ Adaptive card design (dark for storms, light for clear skies)
+✅ Beautiful animated weather icons
+✅ Error + loading state handling
+✅ Responsive for mobile, tablet, and desktop
+
+🖥️ Preview
+Weather	Screenshot
+☀️ Clear Sky	(Add screenshot link)
+🌧️ Rainy	(Add screenshot link)
+⛈️ Thunderstorm	(Add screenshot link)
+🧩 Installation & Setup
+
+Clone the repository:
+
+git clone https://github.com/MdAyanBadar/weather-now.git
+cd weather-now
+
+
+Install dependencies:
+
+npm install
+
+
+Run locally:
+
+npm run dev
+
+
+Then open http://localhost:5173
+ in your browser 🚀
+
+🌍 API Used
+
+Open-Meteo API
+
+🌐 Geocoding API
+
+🌐 Current Weather API
+
+🧠 Learnings
+
+Using public APIs effectively without auth keys
+
+Implementing dynamic UI logic based on live data
+
+Designing with Tailwind CSS utility classes
+
+Handling async data fetching and state in React
+
+🤝 Contributing
+
+Pull requests are welcome!
+For major changes, please open an issue first to discuss what you’d like to change.
+
+📄 License
+
+This project is open-source under the MIT License.
